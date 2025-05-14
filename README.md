@@ -3,8 +3,13 @@
 Задача данной курсовой работы - распознавание и отметка прямоугольником лиц на фотографии
 
 ## Метод 1. Каскадный классификатор Хаара
-Реализован в папке Haar cascade:  
-1. face_detector_haar_cascade.ipynb - файл с кодом программы  
-2. Data - папка с изображениями для тестирования программы  
-3. haarcascade_frontalface_default.xml - файл обучения каскадного классификатора  
+Реализован в папке Haar_FaceDetector:  
+1. Haar_FaceDetector.ipynb - файл с кодом программы  
+2. haarcascade_frontalface_default.xml - файл обучения каскадного классификатора  
+
+## Метод 2. Нейросетевой детектор
+Реализован в папке DNN_FaceDetector:  
+1. DNN_FaceDetector.ipynb - файл с кодом программы  
+2. deploy.prototxt - архитектура нейросети  
+3. res10_300x300_ssd_iter_140000_fp16.caffemode - веса модели
 
